@@ -1,0 +1,11 @@
+.bg-light {
+    background-color: hsl(0, 0%, 35%);
+}
+
+.bg {
+    background-color: hsl(0, 0%, 25%);
+}
+
+.bg-dark {
+    background-color: hsl(0, 0%, 15%);
+}
