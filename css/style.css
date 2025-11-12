@@ -162,7 +162,7 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    border: 5px solid grey;
+    border: 5px solid #3f2e56;
     padding: 30px;
     gap: 30px;
     font-size: 20px;
@@ -213,6 +213,13 @@ h3 {
 #footer-info a:hover {
     text-decoration: underline;
 }
+
+#footer-info div {
+  color: rgb(221, 217, 217);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
  
 #footer-end {
     background-color:#f0f0f7;
@@ -220,12 +227,7 @@ h3 {
     width: 100%;
 }
  
-#footer-info div {
-  color: rgb(221, 217, 217);
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
  
 .footer-info-inner {
     display: flex;
