@@ -102,8 +102,10 @@ header button {
 
 #front-image{
     height: 900px;
-    width: 100vw;
+    width: 100%;
     margin-bottom: 80px;
+
+    object-fit: cover;
 }
 
 .box {
