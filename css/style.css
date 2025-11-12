@@ -63,6 +63,7 @@ header img {
     margin-left: 20px;
 }
 
+
 #header-links {
     display: flex;
     justify-content: center;
@@ -118,8 +119,6 @@ header button {
     margin: 20px;
 }
 
-
-
 h1 {
     font-size: 50px;
     margin-left: 70px;
@@ -133,11 +132,13 @@ h1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 30px;
-}
-
-.eerste-info {
     font-size: 20px;
 }
+
+.info-area p {
+    padding: 10px;
+}
+
 
 .opleiding-image {
     width: 900px;
@@ -152,6 +153,7 @@ h1 {
 .snelle-info {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     border: 5px solid grey;
     padding: 30px;
     gap: 30px;
