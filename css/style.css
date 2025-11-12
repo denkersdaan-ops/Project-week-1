@@ -128,14 +128,46 @@ h1 {
 }
 
 .info-area {
+    margin-left: 70px;
+    margin-right: 70px;
     margin-top: 40px;
     justify-self: center;
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 50px;
+    gap: 30px;
+}
+
+.eerste-info {
+    font-size: 20px;
+}
+
+.opleiding-image {
+    width: 900px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.underline {
+    text-decoration: underline;
 }
 
 .snelle-info {
     display: flex;
-    background: ;
+    flex-direction: column;
+    border: 5px solid grey;
+    padding: 30px;
+    gap: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+.snelle-info div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.small-text {
+    font-size: 15px;
+    color: rgb(92, 91, 91);
 }
