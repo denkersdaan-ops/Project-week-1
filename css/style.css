@@ -167,3 +167,44 @@ h1 {
     font-size: 15px;
     color: rgb(92, 91, 91);
 }
+
+#footer-main {
+    background-color:#98d3ea;
+    height: 135px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 25px;
+    text-align: center;
+    align-items: center;
+}
+ 
+#footer-info {
+    background-color:#3f2e56;
+    height: 450px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+ 
+#footer-end {
+    background-color:#f0f0f7;
+    height: 65px;
+    width: 100%;
+}
+ 
+#footer-info div {
+  color: rgb(221, 217, 217);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+ 
+.footer-info-inner {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
