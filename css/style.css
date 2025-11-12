@@ -135,6 +135,7 @@ h3 {
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 40px;
+    margin-bottom: 40px;
     justify-self: center;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -183,6 +184,14 @@ h3 {
     text-align: center;
     align-items: center;
 }
+
+#footer-main a {
+    text-decoration: none;
+}
+
+#footer-main a:hover {
+    text-decoration: underline;
+}
  
 #footer-info {
     background-color:#3f2e56;
@@ -193,6 +202,16 @@ h3 {
     font-size: 25px;
     color: #ffffff;
     text-align: center;
+}
+
+#footer-info a {
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(221, 217, 217);
+}
+
+#footer-info a:hover {
+    text-decoration: underline;
 }
  
 #footer-end {
@@ -213,3 +232,4 @@ h3 {
     flex-direction: column;
     text-align: center;
 }
+
