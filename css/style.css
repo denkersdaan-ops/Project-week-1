@@ -201,6 +201,23 @@ h3 {
     color: rgb(92, 91, 91);
 }
 
+.bedrijven {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bedrijven div {
+    margin-top: 30px;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 30px;
+}
+
+.bedrijven img {
+    width: 300px;
+    object-fit: fill;
+}
+
 #footer-main {
     background-color:#98d3ea;
     height: 135px;
