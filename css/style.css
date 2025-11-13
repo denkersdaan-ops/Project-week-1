@@ -154,6 +154,7 @@ h3 {
     width: 800px;
     height: 400px;
     object-fit: cover;
+    border-radius: 30px;
 }
 
 .underline {
