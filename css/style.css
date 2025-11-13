@@ -159,6 +159,22 @@ h3 {
 }
 
 .snelle-info {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    justify-content: space-evenly;
+    border: 5px solid grey;
+    padding: 30px;
+    gap: 30px;
+    font-size: 20px;
+    border-radius: 30px;
+}
+
+
+.snelle-info img{
+    width: 32px;
+}
+
+.vakken-info {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -183,6 +199,12 @@ h3 {
     font-size: 25px;
     text-align: center;
     align-items: center;
+}
+
+#footer-main img{
+    width: 32px;
+
+    justify-self: center;
 }
 
 #footer-main a {
