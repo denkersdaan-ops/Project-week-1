@@ -155,6 +155,7 @@ h3 {
 }
 
 .underline {
+    color: black;
     text-decoration: underline;
 }
 
