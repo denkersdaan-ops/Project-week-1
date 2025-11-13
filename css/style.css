@@ -71,11 +71,11 @@ header img {
 #header-links {
     display: flex;
     justify-content: center;
-    align-content: start;
+    align-items: center;
 
     padding: 0;
-
-    height: 46px;
+    
+    height: 100%;
 
     gap: 40px;
 
@@ -149,7 +149,6 @@ h3 {
     padding: 10px;
 }
 
-
 .opleiding-image {
     width: 800px;
     height: 400px;
@@ -172,7 +171,6 @@ h3 {
     font-size: 20px;
     border-radius: 30px;
 }
-
 
 .snelle-info img{
     width: 32px;
