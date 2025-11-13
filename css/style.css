@@ -169,6 +169,14 @@ h3 {
     border-radius: 30px;
 }
 
+.sector-link {
+    color: black;
+}
+
+.snelle-info-link {
+  color: rgb(92, 91, 91);
+}
+
 .small-text {
     font-size: 15px;
     color: rgb(92, 91, 91);
